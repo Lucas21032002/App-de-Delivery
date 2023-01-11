@@ -1,0 +1,29 @@
+.sales {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  justify-content: space-around;
+  padding: 50px 20px;
+
+}
+
+.card {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  border: none;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+
+  transition: 0.1s ease-in-out;
+
+}
+
+.card:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
